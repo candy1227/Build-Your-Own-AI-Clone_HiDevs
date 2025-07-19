@@ -1,0 +1,10 @@
+/* Custom styles for the Inter font */
+body {
+    font-family: 'Inter', sans-serif;
+}
+/* Ensure the body takes full height */
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    overflow: hidden; /* Prevent body scroll, let chat area scroll */
+}
